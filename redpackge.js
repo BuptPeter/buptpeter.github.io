@@ -60,13 +60,5 @@ if (is_weixin()) {
             document.attachEvent("WeixinJSBridgeReady", onAutoinit);
             document.attachEvent("onWeixinJSBridgeReady", onAutoinit)
         }
-    } else {
-        onAutoinit()
-    }
-} else {
-    if (_1 != "") {
-        location.href = _1
-    } else {
-        window.close()
-    }
-}
+    } 
+} 
